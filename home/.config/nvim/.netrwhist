@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/mateo/.config/nvim'
+let g:netrw_dirhist_5='/media/HDD/Workfolder/RUST/RheydOS/target'
+let g:netrw_dirhist_4='/etc/portage/package.accept_keywords'
+let g:netrw_dirhist_3='/media/HDD/iMateo/gitcloned/voidpackage-Rheydskey/void-packages/srcpkgs/nushell'
+let g:netrw_dirhist_2='/etc/portage/package.accept_keywords'
+let g:netrw_dirhist_1='/home/mateo/.local/share/xfce4/terminal/colorschemes'

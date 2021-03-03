@@ -1,0 +1,14 @@
+x11-base/xorg-server -suid
+x11-terms/kitty -wayland
+dev-vcs/gitahead gnome-keyring
+# required by sys-apps/flatpak-1.9.2::gentoo
+# required by flatpak (argument)
+>=dev-util/ostree-2020.8 curl
+www-client/vivaldi proprietary-codecs
+# required by android-sdk-update-manager (argument)
+>=sys-libs/ncurses-compat-6.1_p20190609 abi_x86_32
+app-emulation/virtualbox vboxwebsrv java python lvm
+sys-apps/openrc bash
+sys-kernel/calculate-sources -uksm -fsync
+x11-misc/polybar network ipc mpd i3wm curl
+kde-apps/okular epub

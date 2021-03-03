@@ -1,0 +1,58 @@
+---
+homefiles:
+  - name: I3 config
+    path: ".config/i3/config"
+    backuponly: ~
+    onlyon: ~
+  - name: ZSH Config
+    path: ".zshrc"
+    backuponly: ~
+    onlyon: ~
+  - name: Bash config
+    path: ".bashrc"
+    backuponly: ~
+    onlyon: ~
+  - name: Polybar config
+    path: ".config/polybar"
+    backuponly: ~
+    onlyon: ~
+  - name: Neovim config
+    path: ".config/nvim"
+    backuponly: ~
+    onlyon: ~
+  - name: Alacritty config
+    path: ".config/alacritty/alacritty.yml"
+    backuponly: ~
+    onlyon: ~
+  - name: VS Code config
+    path: ".config/Code/User/settings.json"
+    backuponly: ~
+    onlyon: ~
+  - name: Kitty config
+    path: ".config/kitty/kitty.conf"
+    backuponly: ~
+    onlyon: ~
+rootfiles:
+  - name: Sysctl config
+    path: /etc/sysctl.conf
+    backuponly: true
+    onlyon: ~
+  - name: Portages repos
+    path: /etc/portage/repos.conf
+    backuponly: ~
+    onlyon: gentoo
+  - name: Package USES
+    path: /etc/portage/package.use
+    backuponly: ~
+    onlyon: gentoo
+  - name: Packages Accept Keywords
+    path: /etc/portage/package.accept_keywords
+    backuponly: ~
+    onlyon: gentoo
+  - name: Make.conf file
+    path: /etc/portage/make.conf
+    backuponly: true
+    onlyon: gentoo
+postsave: []
+prerun: []
+postrun: []

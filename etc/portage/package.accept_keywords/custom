@@ -1,0 +1,59 @@
+# This file will be migrate to new installation
+app-editors/visual-studio-code
+# required by x11-terms/kitty-0.19.2::gentoo
+# required by kitty (argument)
+x11-terms/kitty-terminfo
+# required by kitty (argument)
+x11-terms/kitty
+net-misc/postman-bin
+sys-kernel/xanmod-sources
+dev-util/idea-community
+dev-vcs/gitahead
+dev-java/openjdk-bin
+dev-java/openjdk-jre-bin
+dev-db/sqlitestudio
+# required by sys-apps/flatpak-1.9.2::gentoo
+# required by flatpak (argument)
+=dev-util/ostree-2020.8 ~amd64
+# required by sys-apps/flatpak-1.9.2::gentoo[gtk]
+# required by flatpak (argument)
+=sys-apps/xdg-desktop-portal-gtk-1.8.0 ~amd64
+# required by flatpak (argument)
+app-office/libreoffice
+sys-apps/flatpak
+# required by peek (argument)
+=media-video/peek-1.5.1 ~amd64
+# required by anydesk (argument)
+=net-misc/anydesk-6.0.1 ~amd64
+# required by ocs-url (argument)
+=x11-apps/ocs-url-3.1.0 ~amd64
+# required by hey (argument)
+=app-benchmarks/hey-0.1.2 ~amd64
+# required by multimc (argument)
+=games-action/multimc-0.6.11 ~amd64
+# required by zsh-histdb (argument)
+=app-shells/zsh-histdb-0_pre20200405 ~amd64
+# required by rambox-bin (argument)
+net-im/rambox-bin
+# required by x11-libs/kcolorpicker (argument)
+=x11-libs/kcolorpicker-0.1.4 ~amd64
+# required by spicetify-cli (argument)
+=app-misc/spicetify-cli-1.1.0 ~amd64
+# required by spotify (argument)
+=media-sound/spotify-1.1.42 ~amd64
+# required by spotify-adblock (argument)
+media-sound/spotify-adblock
+# required by opennic-up (argument)
+=net-dns/opennic-up-0.97 ~amd64
+# required by speedtest++ (argument)
+=net-analyzer/speedtest++-1.11 ~amd64
+# required by upx-bin (argument)
+=app-arch/upx-bin-3.96 ~amd64
+# required by games-fps/xonotic-0.8.2::gentoo
+# required by xonotic (argument)
+=dev-libs/d0_blind_id-1.0 ~amd64
+# required by xonotic (argument)
+=games-fps/xonotic-0.8.2 ~amd64
+# required by x11-misc/clipit (argument)
+=x11-misc/clipit-1.4.4 ~amd64
+media-plugins/obs-linuxbrowser
