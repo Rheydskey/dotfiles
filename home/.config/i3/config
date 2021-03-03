@@ -189,7 +189,7 @@ for_window [class="^.*"] border pixel 1
 new_window 1pixel
 
 
-exec_always --no-startup-id "bash $HOME/.local/bin/launcher.sh"
+exec_always --no-startup-id "bash $HOME/.local/bin/scripts/launcher.sh"
 exec --no-startup-id "numlockx on"
 exec --no-startup-id "blueman-applet"
 exec --no-startup-id "/usr/libexec/polkit-mate-authentication-agent-1"

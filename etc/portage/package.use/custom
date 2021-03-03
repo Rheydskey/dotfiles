@@ -12,3 +12,4 @@ sys-apps/openrc bash
 sys-kernel/calculate-sources -uksm -fsync
 x11-misc/polybar network ipc mpd i3wm curl
 kde-apps/okular epub
+=app-emulation/bochs-2.6.10

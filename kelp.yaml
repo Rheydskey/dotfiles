@@ -32,6 +32,10 @@ homefiles:
     path: ".config/kitty/kitty.conf"
     backuponly: ~
     onlyon: ~
+  - name: Script
+    path: ".local/bin/scripts"
+    backuponly: ~
+    onlyon: ~
 rootfiles:
   - name: Sysctl config
     path: /etc/sysctl.conf
@@ -56,3 +60,4 @@ rootfiles:
 postsave: []
 prerun: []
 postrun: []
+

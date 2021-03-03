@@ -57,3 +57,5 @@ media-sound/spotify-adblock
 # required by x11-misc/clipit (argument)
 =x11-misc/clipit-1.4.4 ~amd64
 media-plugins/obs-linuxbrowser
+dev-util/clion
+sys-process/bpytop

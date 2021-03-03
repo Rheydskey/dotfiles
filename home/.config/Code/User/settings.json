@@ -1,8 +1,7 @@
 {
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "rust-analyzer.cargo.allFeatures": true,
     "rust-analyzer.cargo.loadOutDirsFromCheck": true,
-    "window.zoomLevel": 0,
     "C_Cpp.updateChannel": "Insiders",
     "git.confirmSync": false,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -10,7 +9,6 @@
     "powermode.comboTimeout": 0,
     "powermode.enabled": true,
     "powermode.enableShake": false,
-    "powermode.enableStatusBarComboTimer": false,
     "powermode.enableStatusBarComboCounter": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
@@ -18,5 +16,10 @@
     "editor.formatOnSaveMode": "modifications",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "rust-analyzer.updates.channel": "nightly"
+    "rust-analyzer.updates.channel": "nightly",
+    "rust-analyzer.cargo.target": "/media/HDD/Workfolder/RUST/RheydOS/target.json",
+    "powermode.enableStatusBarComboTimer": false,
+    "editor.suggest.showStatusBar": true,
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "visible"
 }

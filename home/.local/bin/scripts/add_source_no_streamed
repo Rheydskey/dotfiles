@@ -1,0 +1,1 @@
+pactl load-module module-null-sink sink_name=NO_STREAMED sink_properties=device.description=NO_STREAMED
